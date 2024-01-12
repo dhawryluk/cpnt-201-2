@@ -32,6 +32,7 @@ h1 {
   text-align: left;
   margin: 0;
 }
+
 h2 {
   font-size: 1.3rem;
   margin: 1rem;
@@ -74,7 +75,52 @@ ul {
 .gallery:hover {
   transform: scale(1.05);
 }
+
 .title {
   margin: 30px;
   text-align: center;
 }
+
+.bottom-container {
+  background-color: #2c2e31;
+  padding: 0 10px 20px;
+}
+
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 1rem;
+  list-style-type: none;
+  font-size: 2rem;
+}
+
+.contact-me {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+.fa {
+  font-size: 3rem;
+}
+
+.fa:hover,
+.fa:focus {
+  color: #000;
+  transform: scale(1.1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin: 30px;
+  text-align: center;
+}
+
